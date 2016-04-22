@@ -1,0 +1,26 @@
+body {
+	box-sizing: border-box;
+}
+
+
+.demo-card-wide {
+	margin: 20px auto;
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('/img/card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+body {
+  padding: 20px;
+  background: #fafafa;
+  position: relative;
+}
